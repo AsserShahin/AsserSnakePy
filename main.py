@@ -94,8 +94,7 @@ def move():
         body[i].goto(body[i-1].xcor(), body[i-1].ycor())
 
     if len(body) > 0:
-        for that in body:
-            that.goto(oldx, oldy)
+        body[0].goto(oldx, oldy)
 
     if player.xcor() > 180 or player.xcor() < -180 or player.ycor() > 180 or player.ycor() < -180:
         game_over()
