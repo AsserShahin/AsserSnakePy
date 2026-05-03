@@ -14,7 +14,7 @@ To move up press W key and down for S and left for A and right for D and control
 # Installation
 To install go to my releases tab and install the .deb file and open your terminal and then type:
 ```
-sudo dpkg -i assersnakepy-1_0.deb
+sudo apt install ./assersnakepy-1_0.deb
 ```
 And then open it by clicking the app named AsserSnakePy on your app lists or type on your terminal:
 ```
