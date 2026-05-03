@@ -9,3 +9,5 @@ Or
 ```
 python main.py
 ```
+# Instructions
+To move up press W key and down for S and left for A and right for D and controls uses WASD
